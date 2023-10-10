@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 08:23:26 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMzIyOzIwMjMtMTAtMDk7MDg6MTI6NDkgcC4gbS47MjgzOQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMzIyOzIwMjMtMTAtMDk7MDg6MjM6MjYgcC4gbS47MTsyOTQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="v1" type="Integer" array="False" size=""/>
+            <declare name="v2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduce valor 1&quot;" newline="True"/>
+            <input variable="v1"/>
+            <output expression="&quot;Introduce valor 2&quot;" newline="True"/>
+            <input variable="v2"/>
+            <if expression="v1&gt;v2">
+                <then>
+                    <output expression="&quot;Valor m&#225;s grande es: &quot;" newline="True"/>
+                    <output expression="v1" newline="True"/>
+                </then>
+                <else>
+                    <if expression="v1=v2">
+                        <then>
+                            <output expression="v1" newline="True"/>
+                            <output expression="&quot;es igual que&quot;" newline="True"/>
+                            <output expression="v2" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;El valor m&#225;s peque&#241;o es: &quot;" newline="True"/>
+                            <output expression="v1" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
