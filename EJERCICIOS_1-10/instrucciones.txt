@@ -1,0 +1,32 @@
+Ejercicio 1: Solicitar al usuario dos números enteros positivos, imprimir todos los números
+entre ellos en orden ascendente.
+
+Ejercicio 2: Solicitar al usuario dos números enteros positivos, imprimir todos los números
+pares entre ellos.
+
+Ejercicio 3: Solicitar un número al usuario e imprimir la sumatoria de todos los números desde
+el 1 hasta el número que introdujo el usuario.
+
+Ejercicio 4: Solicitar un número al usuario, indicar si el número es positivo, negativo o cero.
+Después de solicitar el número y darle la respuesta al usuario, se le debe preguntar si desea
+terminar el programa.
+
+Ejercicio 5: Solicitar al usuario dos números enteros positivos. El primero es la base, el segundo
+es el exponente. Usando ciclos, calcular la potencia de la base elevada al exponente.
+
+Ejercicio 6: Solicitar un número entero positivo al usuario e imprimir el equivalente en sistema
+binario.
+
+Ejercicio 7: Solicitar un número positivo (o cero) al usuario. El programa estará preguntando
+números hasta que el usuario introduzca un número negativo. El programa deberá mostrar
+cual es el número más pequeño y el más grande de todos los que introdujo el usuario.
+
+Ejercicio 8: Solicitar caracteres alfabéticos al usuario, indicar si es vocal o consonante. El
+programa termina cuando se introduzca un espacio en blanco.
+
+Ejercicio 9: Solicitar una cadena al usuario donde se buscará la cantidad de apariciones de un
+carácter. Solicitar al usuario el carácter a buscar. Contar cuantas veces aparece el caracter en
+la cadena. NOTA: Mayúsculas y minúsculas tiene valores distintos
+
+Ejercicio 10: Solicitar una cadena al usuario. Validar si la cadena de texto representa un número
+válido.
